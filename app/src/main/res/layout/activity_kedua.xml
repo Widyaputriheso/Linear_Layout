@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tEmail"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginRight="202dp"
+        android:text="@string/tData"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="91dp"
+        android:layout_height="29dp"
+        android:text="@string/tPassword"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="152dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/txPassword"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="154dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/txEmail"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
